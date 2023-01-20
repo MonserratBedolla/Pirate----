@@ -12,7 +12,9 @@ class Cannonball {
       this.r = 40;
       this.body=Bodies.circle(x,y,this.r,options);
       this.image=loadImage("./assets/cannonball.png");
-      World.add(world,ball);
+
+      //añadir Cannonball al index
+      //World.add(world,ball);
 
 
       World.add(world, this.body);
